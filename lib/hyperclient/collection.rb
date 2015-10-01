@@ -64,10 +64,6 @@ module Hyperclient
     end
     alias_method :to_hash, :to_h
 
-    def to_s
-      to_hash
-    end
-
     # Public: Provides method access to the collection values.
     #
     # It allows accessing a value as `collection.name` instead of
